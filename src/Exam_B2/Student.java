@@ -122,7 +122,7 @@ public class Student {
         this.setStudentName(input.nextLine());
         System.out.print("Nhập tuổi sinh viên: ");
         this.setAge(input.nextInt());
-        System.out.print("Nhập giới tính: ");
+        System.out.print("Nhập giới tính (nam/nữ): ");
         input.nextLine();
         this.setSex(input.nextLine());
         System.out.print("Nhập số điện thoại: ");
